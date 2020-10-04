@@ -1,0 +1,99 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login__left {
+  width: 640px;
+  padding: 50px;
+  padding-bottom: 100px;
+  margin-right: 20px;
+}
+.login__left img {
+  height: 106px;
+  margin: -28px;
+}
+.login__left h1 {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  margin-top: 20px;
+}
+.login__right {
+  background-color: white;
+  padding: 5px 20px;
+
+  height: 400px;
+  width: 396px;
+  border-radius: 10px;
+}
+.login__right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__right form input {
+  font-size: 17px;
+  width: auto;
+  border-radius: 6px;
+  padding: 20px 20px;
+  background-color: transparent;
+  margin: 13px 0;
+  border: 2px solid #dddfe2;
+  color: #9094a8;
+  font-size: 20px;
+  outline: none;
+}
+.login__right form input:focus {
+  border: 1px solid #1877f2;
+}
+.login__button {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+  caret-color: #1877f2;
+  background-color: #166fe5;
+  color: white;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login a {
+  display: grid;
+  place-items: center;
+  color: #1877f2;
+  text-decoration: none;
+  padding: 18px 0;
+  font-size: 20px;
+}
+.login a:hover {
+  text-decoration: underline;
+}
+
+.login hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-bottom: 10px;
+}
+
+.login__register {
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+}
+.login__register button {
+  background-color: #36a420;
+  color: white;
+  font-size: 20px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}

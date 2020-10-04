@@ -1,0 +1,9 @@
+.widgets {
+  flex: 0.2;
+  padding-top: 20px;
+}
+@media (max-width: 1150px) {
+  .widgets {
+    display: none;
+  }
+}

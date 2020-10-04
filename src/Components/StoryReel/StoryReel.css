@@ -1,0 +1,11 @@
+.storyReel {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 850px) {
+  .storyReel {
+    display: none;
+  }
+}
